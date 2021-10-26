@@ -35,7 +35,7 @@ public:
 
     void parameterValueChanged(int parameterIndex, float newValue) override;
 
-    void parameterGestureChanged(int parameterIndex, bool gestureIsStarting) override;
+    void parameterGestureChanged(int parameterIndex, bool gestureIsStarting) override {};
 
     void timerCallback() override;
 
