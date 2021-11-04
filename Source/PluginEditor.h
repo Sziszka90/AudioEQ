@@ -285,7 +285,7 @@ private:
 struct PowerButton : juce::ToggleButton { };
 struct AnalyzerButton : juce::ToggleButton 
 {
-  void resized() override;
+  void resized() override
   {
     auto bounds = getLocalBounds();
     auto insetRect = bounds.reduced(4);
